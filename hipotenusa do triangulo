@@ -1,0 +1,20 @@
+using System;
+
+    namespace num2{
+
+        class num2{
+
+            public static void Main(String[] args){
+
+                double catetoMai, catetoMen ,hipotenusa;
+
+               catetoMai = double.Parse(Console.ReadLine());
+
+               catetoMen = double.Parse(Console.ReadLine());
+
+               hipotenusa = Math.Sqrt(Math.Pow(catetoMai,2)+Math.Pow(catetoMen,2));
+
+               Console.WriteLine(hipotenusa);     
+            }
+        }
+    }
