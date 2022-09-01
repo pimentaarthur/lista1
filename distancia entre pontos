@@ -1,0 +1,21 @@
+using System;
+
+    namespace num5{
+
+        class num5{
+
+            public static void Main(String[] args){
+
+               double Xa, Ya , Xb, Yb, dist;
+
+               Xa = double.Parse(Console.ReadLine());
+               Ya = double.Parse(Console.ReadLine());
+               Xb = double.Parse(Console.ReadLine());
+               Yb = double.Parse(Console.ReadLine());
+
+                dist = Math.Sqrt(Math.Pow((Xb- Xa),2)+Math.Pow((Yb -Ya),2));
+
+                Console.WriteLine(dist);
+            }
+        }
+    }
