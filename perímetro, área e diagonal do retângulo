@@ -1,0 +1,27 @@
+using System;
+
+    namespace num3{
+
+        class num3{
+
+            public static void Main(String[] args){
+
+                Double bas, altura, per, area, diag;
+
+               Console.WriteLine("informe a base");
+               bas = double.Parse(Console.ReadLine());
+
+               Console.WriteLine("informe a altura");
+               altura = double.Parse(Console.ReadLine());
+
+               per = 2*(bas+altura);
+
+               area = (bas*altura);
+               
+               diag = Math.Sqrt(Math.Pow(bas,2)+ Math.Pow(altura,2));
+
+               Console.WriteLine("perímetro = "+per+" área = "+area+" diagonal = "+diag);
+
+            }
+        }
+    }
