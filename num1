@@ -1,0 +1,25 @@
+using System;
+
+    namespace num1{
+
+        class num1{
+
+            public static void Main(String[] args){
+
+                int u,c,d,num,numinvertido;
+
+                num = int.Parse(Console.ReadLine());
+
+                c = num/100;
+                d = (num%100)/10;
+                u = num%10;
+                numinvertido = u*100+d*10+c;
+
+                Console.WriteLine(numinvertido);
+
+
+
+
+            }
+        }
+    }
