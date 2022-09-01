@@ -1,0 +1,25 @@
+using System;
+
+    namespace num4{
+
+        class num4{
+
+            public static void Main(String[] args){
+
+                double salario, kilowatt , valor, desconto;
+
+                Console.WriteLine("informe o valor do salario minimo");
+                salario = Double.Parse(Console.ReadLine());
+
+                Console.WriteLine("informe a quantidade de kilowatt");
+                kilowatt = Double.Parse(Console.ReadLine());
+
+                valor = (salario/7)*kilowatt;
+
+                desconto =(valor*90)/100;
+
+                Console.WriteLine("valor total = "+valor+" valor com 10% de desconto = "+desconto);
+
+            }
+        }
+    }
